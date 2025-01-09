@@ -12,7 +12,7 @@ const AboutPage = () => {
             <section className='descriptionAboutPage'>
                 <img className='descriptionAboutPageImage' src={mainImage} alt="mainImage"></img>
                 <h1 className='descriptionAboutPageTitle'>Wildora : L’Évasion dans sa Forme la Plus Pure</h1>
-                <p className='descriptionAboutPageText'>Chez Wildora, nous nous inspirons de la nature dans son état brut. Le nom Wildora combine deux concepts puissants : 'Wild' (sauvage) et 'Ora' (l'instant, l'époque). Nous croyons que la nature, dans sa forme la plus pure, offre une expérience intemporelle, capable de nous reconnecter à l’essentiel. Nous vous invitons à explorer des paysages préservés, à vivre des moments authentiques, loin du quotidien, et à découvrir un monde où la beauté brute de la nature se dévoile à chaque pas.</p>
+                <p className='descriptionAboutPageText'>{`Chez Wildora, nous nous inspirons de la nature dans son état brut. Le nom Wildora combine deux concepts puissants : 'Wild' (sauvage) et 'Ora' (l'instant, l'époque). Nous croyons que la nature, dans sa forme la plus pure, offre une expérience intemporelle, capable de nous reconnecter à l’essentiel. Nous vous invitons à explorer des paysages préservés, à vivre des moments authentiques, loin du quotidien, et à découvrir un monde où la beauté brute de la nature se dévoile à chaque pas.`}</p>
             </section>
 
             <section className='equipeAboutPage'>
@@ -67,7 +67,7 @@ const AboutPage = () => {
                     </div>
                     <div className='faqAboutPageCard'>
                         <h2 className='faqAboutPageCardTitle'>Quel équipement dois-je apporter pour une balade ?</h2>
-                        <p className='faqAboutPageCardText'>Nous fournissons les équipements essentiels, mais il est recommandé de porter des chaussures de randonnée et d'apporter de l'eau.</p>
+                        <p className='faqAboutPageCardText'>{`Nous fournissons les équipements essentiels, mais il est recommandé de porter des chaussures de randonnée et d'apporter de l'eau.`}</p>
                     </div>
                     <div className='faqAboutPageCard'>
                         <h2 className='faqAboutPageCardTitle'>Quels niveaux de difficulté pour les balades ?</h2>
