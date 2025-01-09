@@ -1,5 +1,13 @@
+// Variables
+$primary-color: #ebeadf;
+$secondary-color: #f8c761;
+$highlight-color: #a73e26;
+$noir: #000000;
+$blanc: #ffffff;
+$font-family: 'EB Garamond', sans-serif;
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'EB Garamond', serif, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -15,8 +23,7 @@
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  overflow-x: hidden;
 }
