@@ -3,6 +3,7 @@ import { useEffect } from "react";
 
 import MainPage from "./pages/MainPage/MainPage";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
+import Header from "./components/Header/Header";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <div id="app">
+      <Header />
       <main>
         <Routes>
           <Route path="/" element={<MainPage />} />
