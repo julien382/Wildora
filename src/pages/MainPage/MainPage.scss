@@ -1,6 +1,6 @@
 @use '../../styles/index' as *;
 
-.topMainPageContainer {
+.topMainPage {
     position: relative;
     height: 100vh; /* L'image prend toute la hauteur de la vue */
     overflow: hidden;
@@ -28,11 +28,11 @@
     }
 }
 
-.midMainPageContainer {
+.presentationMainPage {
     padding: 2rem;
     background-color: $white;
 
-    .midMainPageTitle {
+    .presentationMainPageTitle {
         font-size: 1.2rem;
         line-height: 1.6;
         color: $black;
