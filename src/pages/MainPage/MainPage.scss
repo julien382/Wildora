@@ -1,3 +1,5 @@
+@use '../../styles/index' as *;
+
 .topMainPageContainer {
     position: relative;
     height: 100vh; /* L'image prend toute la hauteur de la vue */
@@ -18,7 +20,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: white;
+        color: $white;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Amélioration de la lisibilité */
         font-size: 2.5rem;
         text-align: center;
@@ -28,11 +30,11 @@
 
 .midMainPageContainer {
     padding: 2rem;
-    background-color: white;
+    background-color: $white;
 
     .midMainPageTitle {
         font-size: 1.2rem;
         line-height: 1.6;
-        color: #333;
+        color: $black;
     }
 }
