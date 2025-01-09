@@ -16,30 +16,39 @@ $primary-font-weight: bold;
 
 $font-family: "Raleway", sans-serif;
 
+// Global reset and box-sizing
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Root Styles
 :root {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", serif, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+// Body Styles
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  overflow-x: hidden;
+  overflow-x: hidden;  // Prevent horizontal overflow
 }
 
+// Main Content
 main {
   margin: 0;
-  width: 100%; // Assurer que le contenu prend toute la largeur
-  
+  width: 100%; // Ensure the content takes up full width
 }

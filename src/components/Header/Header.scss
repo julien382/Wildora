@@ -2,10 +2,25 @@
 
 header {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 1rem 2rem;
+    font-size: $tertiary-font-size;
     background-color: $primary-color;
     color: $black;
+    position: fixed; /* Pour que le header soit fixé en haut */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: transform 0.3s ease; /* Ajoute une transition fluide */
+}
+
+.header-visible {
+    transform: translateY(0); /* Le header est visible, il reste à sa place */
+}
+
+.header-hidden {
+    transform: translateY(-100%); /* Le header est caché, il se déplace hors de l'écran */
 }
 
 nav {

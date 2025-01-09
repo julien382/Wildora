@@ -4,7 +4,7 @@ const MainPage = () => {
 
     return (
         <div>
-            <p>hello word</p>
+            <p className='hello'>hello word</p>
         </div>
     )
 }
