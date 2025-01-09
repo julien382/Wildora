@@ -6,7 +6,9 @@ const Header = () => {
 
     return (
         <header>
-            <h1 className='logoHeader'>Wildora</h1>
+            <Link to="/">
+                <h1 className='linkHeader'>Wildora</h1>
+            </Link>
             <nav>
                 <Link to="/">
                     <h1 className='linkHeader'>Accueil</h1>
