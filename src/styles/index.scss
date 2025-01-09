@@ -14,10 +14,10 @@ $error-font-size: 50px;
 
 $primary-font-weight: bold;
 
-$font-family: 'EB Garamond', sans-serif;
+$font-family: "Raleway", sans-serif;
 
 :root {
-  font-family: 'EB Garamond', serif, sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -36,4 +36,10 @@ body {
   min-width: 320px;
   min-height: 100vh;
   overflow-x: hidden;
+}
+
+main {
+  margin: 0;
+  width: 100%; // Assurer que le contenu prend toute la largeur
+  
 }
