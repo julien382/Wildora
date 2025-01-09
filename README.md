@@ -64,4 +64,4 @@ npm run build
 
 ```bash
 npm run deploy
-```# Wildora
+```
