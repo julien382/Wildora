@@ -12,15 +12,15 @@
 
     &:hover {
         transform: translateY(-10px);
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 
         .CardServicesContent {
-            opacity: 0;
-            transform: translateY(20px);
+            opacity: 1;
+            transform: translateY(0);
         }
 
         .CardServicesImage {
-            opacity: 1;
+            transform: scale(1.05);
         }
     }
 
@@ -28,11 +28,7 @@
         width: 100%;
         height: 200px;
         object-fit: cover;
-        transition: transform 0.3s ease, opacity 0.3s ease;
-
-        &:hover {
-            transform: scale(1.05);
-        }
+        transition: transform 0.3s ease;
     }
 
     .CardServicesContent {
@@ -40,19 +36,19 @@
         bottom: 0;
         left: 0;
         right: 0;
-        background: rgba(0, 0, 0, 0.6);
         color: $white;
-        padding: 1rem;
         text-align: center;
-        transition: opacity 0.3s ease, transform 0.3s ease;
-        opacity: 1;
-        transform: translateY(0);
+        padding: 1rem;
+        transition: opacity 0.5s ease, transform 0.5s ease;
+        opacity: 0;
+        transform: translateY(20px);
 
         .CardServicesDuration,
         .CardServicesPrice {
-            font-size: 1.4rem;
+            font-size: 1.6rem;
             font-weight: bold;
             margin: 0.5rem 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
     }
 }
