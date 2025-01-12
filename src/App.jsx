@@ -8,6 +8,7 @@ import AboutPage from "./pages/AboutPage/AboutPage";
 import ServicesPage from "./pages/ServicesPage/ServicesPage";
 import GaleriePage from "./pages/GaleriePage/GaleriePage";
 import ContactPage from "./pages/ContactPage/ContactPage";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const location = useLocation(); // Récupère les infos sur la route actuelle
@@ -29,7 +30,7 @@ function App() {
           <Route path="/*" element={<ErrorPage />} />
         </Routes>
       </main>
-
+      <Footer />
     </div>
   )
 }

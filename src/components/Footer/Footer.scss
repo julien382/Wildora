@@ -1,0 +1,55 @@
+@use '../../styles/index' as *;
+
+.footer {
+    background-color: $primary-color;
+    color: $white;
+    padding: 2rem 1rem;
+    text-align: center;
+
+    .footerContent {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 2rem;
+
+        .footerSection {
+            flex: 1 1 300px;
+            margin: 1rem;
+
+            .footerTitle {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+            }
+
+            .footerText {
+                font-size: 1rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .footerSocialLinks {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+
+                a {
+                    color: $white;
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+
+                    &:hover {
+                        color: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .footerBottom {
+        border-top: 1px solid $white;
+        padding-top: 1rem;
+
+        .footerBottomText {
+            font-size: 0.9rem;
+        }
+    }
+}
