@@ -1,6 +1,7 @@
 import './GaleriePage.scss'
 import mainImage from '../../assets/img/rando.jpg';
 import CardAboveTheFold from '../../components/CardAboveTheFold/CardAboveTheFold';
+import CardGalerie from '../../components/CardGalerie/CardGalerie';
 
 const GaleriePage = () => {
     return (
@@ -8,29 +9,15 @@ const GaleriePage = () => {
             <CardAboveTheFold text={"Nos moments inoubliables en images"} />
 
             <section className='galeriePage'>
-                <div className='galeriePageCard'>
-                    <img className='galeriePageImage' src={mainImage} alt="mainImage"></img>
-                </div>
-
-                <div className='galeriePageCard'>
-                    <img className='galeriePageImage' src={mainImage} alt="mainImage"></img>
-                </div>
-
-                <div className='galeriePageCard'>
-                    <img className='galeriePageImage' src={mainImage} alt="mainImage"></img>
-                </div>
-
-                <div className='galeriePageCard'>
-                    <img className='galeriePageImage' src={mainImage} alt="mainImage"></img>
-                </div>
-
-                <div className='galeriePageCard'>
-                    <img className='galeriePageImage' src={mainImage} alt="mainImage"></img>
-                </div>
-
-                <div className='galeriePageCard'>
-                    <img className='galeriePageImage' src={mainImage} alt="mainImage"></img>
-                </div>
+                <CardGalerie image={mainImage} />
+                <CardGalerie image={mainImage} />
+                <CardGalerie image={mainImage} />
+                <CardGalerie image={mainImage} />
+                <CardGalerie image={mainImage} />
+                <CardGalerie image={mainImage} />
+                <CardGalerie image={mainImage} />
+                <CardGalerie image={mainImage} />
+                <CardGalerie image={mainImage} />
 
             </section>
 
