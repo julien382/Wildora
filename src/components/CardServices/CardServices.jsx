@@ -6,8 +6,10 @@ const CardServices = ({ image, duration, price }) => {
     return (
         <div className='CardServices'>
             <img className='CardServicesImage' src={image} alt="CardServices"></img>
-            <p className='CardServicesDuration'>{duration}</p>
-            <p className='CardServicesPrice'>{price}</p>
+            <div className='CardServicesContent'>
+                <p className='CardServicesDuration'>{duration}</p>
+                <p className='CardServicesPrice'>{price}</p>
+            </div>
         </div>
     )
 }

@@ -14,6 +14,8 @@ const ServicesPage = () => {
                     <p className='typeServicesPageText'>Nos guides passionnés vous emmènent à la découverte des trésors cachés de la nature. Balades adaptées à tous les niveaux.</p>
                     
                     <CardServices  image={mainImage} duration={"Durée : 2h à 5h"} price={"À partir de 30€"} />
+                    <CardServices  image={mainImage} duration={"Durée : 2h à 5h"} price={"À partir de 30€"} />
+                    <CardServices  image={mainImage} duration={"Durée : 2h à 5h"} price={"À partir de 30€"} />
 
                 </div>
 
