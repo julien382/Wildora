@@ -1,14 +1,12 @@
 import './MainPage.scss'
 import mainImage from '../../assets/img/rando.jpg';
+import CardAboveTheFold from '../../components/CardAboveTheFold/CardAboveTheFold';
 
 const MainPage = () => {
 
     return (
         <div>
-            <section className='topMainPage'>
-                <img className='topMainPageImage' src={mainImage} alt="mainImage"></img>
-                <h1 className='topMainPageTitle'>Bienvenue chez Wildora : L’Évasion au Cœur de la Nature Sauvage</h1>
-            </section>
+            <CardAboveTheFold />
 
             <section className='presentationMainPage'>
                 <p className='presentationMainPageTitle'>Chez Wildora, nous vous offrons des expériences immersives au cœur de la nature, que ce soit à travers des balades guidées, des séjours en pleine nature ou des activités en extérieur. Nous croyons que la véritable évasion se trouve dans la simplicité et la beauté brute de notre environnement naturel. Nos services sont conçus pour vous permettre de vous reconnecter à l’essentiel, en explorant des paysages préservés et en vivant des moments authentiques, loin du tumulte quotidien.</p>
