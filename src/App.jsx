@@ -6,6 +6,7 @@ import ErrorPage from "./pages/ErrorPage/ErrorPage";
 import Header from "./components/Header/Header";
 import AboutPage from "./pages/AboutPage/AboutPage";
 import ServicesPage from "./pages/ServicesPage/ServicesPage";
+import GaleriePage from "./pages/GaleriePage/GaleriePage";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/" element={<MainPage />} />
           <Route path="/a_propos" element={<AboutPage />} />
           <Route path="/services" element={<ServicesPage />} />
+          <Route path="/galerie" element={<GaleriePage />} />
           <Route path="/*" element={<ErrorPage />} />
         </Routes>
       </main>
