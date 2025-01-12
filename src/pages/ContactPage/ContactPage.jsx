@@ -1,13 +1,10 @@
 import './ContactPage.scss'
-import mainImage from '../../assets/img/rando.jpg';
+import CardAboveTheFold from '../../components/CardAboveTheFold/CardAboveTheFold';
 
 const ContactPage = () => {
     return (
         <div>
-            <section className='topContactPage'>
-                <img className='topContactPageImage' src={mainImage} alt="mainImage"></img>
-                <h1 className='topContactPageTitle'>Contactez-nous pour plus d’informations</h1>
-            </section>
+            <CardAboveTheFold text={"Contactez-nous pour plus d’informations"} />
 
             <section className='contactFormSection'>
                 <h2 className='contactFormTitle'>Formulaire de Contact</h2>

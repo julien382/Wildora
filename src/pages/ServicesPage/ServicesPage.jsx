@@ -1,13 +1,11 @@
 import './ServicesPage.scss'
 import mainImage from '../../assets/img/rando.jpg';
+import CardAboveTheFold from '../../components/CardAboveTheFold/CardAboveTheFold';
 
 const ServicesPage = () => {
     return (
         <div>
-            <section className='topServicesPage'>
-                <img className='topServicesPageImage' src={mainImage} alt="mainImage"></img>
-                <h1 className='topServicesPageTitle'>Vivez des moments uniques au cœur de la nature sauvage.</h1>
-            </section>
+            <CardAboveTheFold text={"Vivez des moments uniques au cœur de la nature sauvage."} />
 
             <section className='servicesPage'>
                 <div className='typeServicesPage'>

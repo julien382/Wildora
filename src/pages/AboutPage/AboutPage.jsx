@@ -1,13 +1,11 @@
 import './AboutPage.scss'
 import mainImage from '../../assets/img/rando.jpg';
+import CardAboveTheFold from '../../components/CardAboveTheFold/CardAboveTheFold';
 
 const AboutPage = () => {
     return (
         <div>
-            <section className='topAboutPage'>
-                <img className='topAboutPageImage' src={mainImage} alt="mainImage"></img>
-                <h1 className='topAboutPageTitle'>Notre but : vous proposer des expériences immersives au cœur de la nature</h1>
-            </section>
+            <CardAboveTheFold text={"Notre but : vous proposer des expériences immersives au cœur de la nature"} />
 
             <section className='descriptionAboutPage'>
                 <img className='descriptionAboutPageImage' src={mainImage} alt="mainImage"></img>
