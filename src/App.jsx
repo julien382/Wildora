@@ -5,6 +5,7 @@ import MainPage from "./pages/MainPage/MainPage";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
 import Header from "./components/Header/Header";
 import AboutPage from "./pages/AboutPage/AboutPage";
+import ServicesPage from "./pages/ServicesPage/ServicesPage";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/a_propos" element={<AboutPage />} />
+          <Route path="/services" element={<ServicesPage />} />
           <Route path="/*" element={<ErrorPage />} />
         </Routes>
       </main>
