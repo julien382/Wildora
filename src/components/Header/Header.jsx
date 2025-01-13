@@ -4,11 +4,18 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
     const [showHeader, setShowHeader] = useState(true);
+    const [isScrolled, setIsScrolled] = useState(false);
     const [lastScrollY, setLastScrollY] = useState(0);
 
     // Hook pour détecter le défilement
     useEffect(() => {
         const handleScroll = () => {
+            if (window.scrollY > window.innerHeight) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+
             // Si l'utilisateur fait défiler vers le bas, on cache le header
             if (window.scrollY > lastScrollY) {
                 setShowHeader(false); // Scroll vers le bas
@@ -25,7 +32,7 @@ const Header = () => {
     }, [lastScrollY]);
 
     return (
-        <header className={showHeader ? 'header-visible' : 'header-hidden'}>
+        <header className={`${showHeader ? 'header-visible' : 'header-hidden'} ${isScrolled ? 'header-scrolled' : ''}`}>
             <Link to="/">
                 <h1 className='linkHeader'>Wildora</h1>
             </Link>

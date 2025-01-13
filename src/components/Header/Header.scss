@@ -3,16 +3,40 @@
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem 2rem;
     font-size: $tertiary-font-size;
-    background-color: $primary-color;
-    color: $black;
     position: fixed; /* Pour que le header soit fixé en haut */
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
-    transition: transform 0.3s ease; /* Ajoute une transition fluide */
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease; /* Ajoute une transition fluide */
+    background-color: transparent; /* Fond transparent par défaut */
+    font-weight: 600; /* Police légèrement plus épaisse */
+    color: $white; /* Texte blanc par défaut */
+    
+    h1 {
+        font-size: $secondary-font-size;
+        color: $white; /* Assurez-vous que le texte du h1 est blanc */
+    }
+
+    nav {
+        display: flex;
+        gap: 1rem;
+
+        .linkHeader {
+            color: $white; /* Assurez-vous que les liens de navigation sont blancs */
+            text-decoration: none;
+            font-size: $tertiary-font-size;
+            transition: color 0.3s ease;
+            font-weight: 600; /* Police légèrement plus épaisse */
+
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
 }
 
 .header-visible {
@@ -23,9 +47,15 @@ header {
     transform: translateY(-100%); /* Le header est caché, il se déplace hors de l'écran */
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+.header-scrolled {
+    background-color: $white; /* Fond blanc */
+    color: $black; /* Texte noir */
+
+    h1 {
+        color: $black; /* Assurez-vous que le texte du h1 est noir */
+    }
+
+    .linkHeader {
+        color: $black; /* Assurez-vous que les liens de navigation sont noirs */
+    }
 }

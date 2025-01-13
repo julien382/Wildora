@@ -17,13 +17,14 @@
 
     .CardAboveTheFoldTitle {
         position: absolute;
-        top: 50%;
+        top: 70%;
         left: 50%;
+        width: 80vw;
+        text-align: center;
         transform: translate(-50%, -50%);
         color: $white;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Amélioration de la lisibilité */
-        font-size: 2.5rem;
-        text-align: center;
+        font-size: 5rem;
+        font-weight:500;
         z-index: 1; /* Place le texte au-dessus de l'image */
     }
 }
