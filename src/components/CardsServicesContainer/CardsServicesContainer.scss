@@ -2,18 +2,36 @@
 
 .CardsServicesContainer {
     margin-bottom: 2rem;
+    text-align: center;
+    color: $black;
 
     .CardsServicesContainerTitle {
-        font-size: 2rem;
+        font-size: 2.5rem; /* Augmenter la taille de la police */
         margin-bottom: 1rem;
-        color: $black;
+        font-weight: 700; /* Rendre le texte plus épais */
+        text-transform: uppercase; /* Mettre le texte en majuscules */
+        letter-spacing: 0.1rem; /* Ajouter un espacement entre les lettres */
     }
 
     .CardsServicesContainerText {
-        font-size: 1.2rem;
-        line-height: 1.6;
-        color: $black;
-        margin-bottom: 1rem;
+        font-size: 1.4rem; /* Augmenter la taille de la police */
+        line-height: 1.8; /* Augmenter l'interligne */
+        margin-bottom: 2rem;
+        max-width: 800px; /* Limiter la largeur du texte */
+        margin-left: auto;
+        margin-right: auto;
     }
 
+    .CardsServicesWrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .CardServices {
+        flex: 1 1 calc(30% - 1rem); /* Trois cartes par ligne */
+        max-width: calc(30% - 1rem);
+        box-sizing: border-box;
+    }
 }

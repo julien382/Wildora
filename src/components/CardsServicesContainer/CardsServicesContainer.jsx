@@ -8,10 +8,14 @@ const CardsServicesContainer = ({ title, text }) => {
         <div className='CardsServicesContainer'>
             <h2 className='CardsServicesContainerTitle'>{title}</h2>
             <p className='CardsServicesContainerText'>{text}</p>
-                            
-            <CardServices image={mainImage} duration={"Durée : 2h à 5h"} price={"À partir de 30€"} />
-            <CardServices image={mainImage} duration={"Durée : 2h à 5h"} price={"À partir de 30€"} />
-            <CardServices image={mainImage} duration={"Durée : 2h à 5h"} price={"À partir de 30€"} />
+            <div className='CardsServicesWrapper'>
+                <CardServices image={mainImage} duration={"Durée : 2h à 5h"} price={"À partir de 30€"} />
+                <CardServices image={mainImage} duration={"Durée : 2h à 5h"} price={"À partir de 30€"} />
+                <CardServices image={mainImage} duration={"Durée : 2h à 5h"} price={"À partir de 30€"} />
+                <CardServices image={mainImage} duration={"Durée : 2h à 5h"} price={"À partir de 30€"} />
+                <CardServices image={mainImage} duration={"Durée : 2h à 5h"} price={"À partir de 30€"} />
+                <CardServices image={mainImage} duration={"Durée : 2h à 5h"} price={"À partir de 30€"} />
+            </div>
         </div>
     );
 };
