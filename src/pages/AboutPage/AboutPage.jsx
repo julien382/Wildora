@@ -9,7 +9,7 @@ const AboutPage = () => {
 
             <section className='descriptionAboutPage'>
                 <img className='descriptionAboutPageImage' src={mainImage} alt="mainImage"></img>
-                <h1 className='descriptionAboutPageTitle'>Wildora : L’Évasion dans sa Forme la Plus Pure</h1>
+                <h1 className='descriptionAboutPageTitle'>L’Évasion dans sa Forme la Plus Pure</h1>
                 <p className='descriptionAboutPageText'>{`Chez Wildora, nous nous inspirons de la nature dans son état brut. Le nom Wildora combine deux concepts puissants : 'Wild' (sauvage) et 'Ora' (l'instant, l'époque). Nous croyons que la nature, dans sa forme la plus pure, offre une expérience intemporelle, capable de nous reconnecter à l’essentiel. Nous vous invitons à explorer des paysages préservés, à vivre des moments authentiques, loin du quotidien, et à découvrir un monde où la beauté brute de la nature se dévoile à chaque pas.`}</p>
             </section>
 
