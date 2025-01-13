@@ -2,6 +2,7 @@ import './ServicesPage.scss'
 import mainImage from '../../assets/img/rando.jpg';
 import CardAboveTheFold from '../../components/CardAboveTheFold/CardAboveTheFold';
 import CardServices from '../../components/CardServices/CardServices';
+import CardsServicesContainer from '../../components/CardsServicesContainer/CardsServicesContainer';
 
 const ServicesPage = () => {
     return (
@@ -9,15 +10,7 @@ const ServicesPage = () => {
             <CardAboveTheFold text={"Vivez des moments uniques au cœur de la nature sauvage."} />
 
             <section className='servicesPage'>
-                <div className='typeServicesPage'>
-                    <h2 className='typeServicesPageTitle'>Balades guidées en nature</h2>
-                    <p className='typeServicesPageText'>Nos guides passionnés vous emmènent à la découverte des trésors cachés de la nature. Balades adaptées à tous les niveaux.</p>
-                    
-                    <CardServices  image={mainImage} duration={"Durée : 2h à 5h"} price={"À partir de 30€"} />
-                    <CardServices  image={mainImage} duration={"Durée : 2h à 5h"} price={"À partir de 30€"} />
-                    <CardServices  image={mainImage} duration={"Durée : 2h à 5h"} price={"À partir de 30€"} />
-
-                </div>
+                <CardsServicesContainer title={"Balades guidées en nature"} text={"Nos guides passionnés vous emmènent à la découverte des trésors cachés de la nature. Balades adaptées à tous les niveaux."} />
 
                 <div className='typeServicesPage'>
                     <h2 className='typeServicesPageTitle'>Séjours en pleine nature</h2>
