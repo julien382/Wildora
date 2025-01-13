@@ -13,6 +13,7 @@
         top: 0;
         left: 0;
         z-index: -1; /* Place l'image derrière le texte */
+        filter: brightness(85%); /* Ajoute un filtre gris */
     }
 
     .CardAboveTheFoldTitle {
@@ -24,7 +25,7 @@
         transform: translate(-50%, -50%);
         color: $white;
         font-size: 5rem;
-        font-weight:500;
+        font-weight: 500;
         z-index: 1; /* Place le texte au-dessus de l'image */
     }
 }
