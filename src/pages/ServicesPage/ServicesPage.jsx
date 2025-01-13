@@ -1,7 +1,5 @@
 import './ServicesPage.scss'
-import mainImage from '../../assets/img/rando.jpg';
 import CardAboveTheFold from '../../components/CardAboveTheFold/CardAboveTheFold';
-import CardServices from '../../components/CardServices/CardServices';
 import CardsServicesContainer from '../../components/CardsServicesContainer/CardsServicesContainer';
 
 const ServicesPage = () => {
@@ -11,22 +9,8 @@ const ServicesPage = () => {
 
             <section className='servicesPage'>
                 <CardsServicesContainer title={"Balades guidées en nature"} text={"Nos guides passionnés vous emmènent à la découverte des trésors cachés de la nature. Balades adaptées à tous les niveaux."} />
-
-                <div className='typeServicesPage'>
-                    <h2 className='typeServicesPageTitle'>Séjours en pleine nature</h2>
-                    <p className='typeServicesPageText'>Séjournez dans des tentes, gîtes ou cabanes en pleine nature et vivez une expérience hors du temps.</p>
-                    
-                    <CardServices  image={mainImage} duration={"Séjours : 2 à 5 jours"} price={"À partir de 150€"} />
-
-                </div>
-
-                <div className='typeServicesPage'>
-                    <h2 className='typeServicesPageTitle'>Ateliers et événements nature</h2>
-                    <p className='typeServicesPageText'>Participez à des ateliers immersifs sur la photographie de paysages, l’observation des oiseaux ou encore la préparation de repas en pleine nature.</p>
-                    
-                    <CardServices  image={mainImage} duration={"Durée : 1h à 2h"} price={"À partir de 40€"} />
-
-                </div>
+                <CardsServicesContainer title={"Séjours en pleine nature"} text={"Séjournez dans des tentes, gîtes ou cabanes en pleine nature et vivez une expérience hors du temps."} />
+                <CardsServicesContainer title={"Ateliers et événements nature"} text={"Participez à des ateliers immersifs sur la photographie de paysages, l’observation des oiseaux ou encore la préparation de repas en pleine nature."} />
 
             </section>
 

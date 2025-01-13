@@ -5,9 +5,9 @@ import PropTypes from 'prop-types';
 
 const CardsServicesContainer = ({ title, text }) => {
     return (
-        <div className='typeServicesPage'>
-            <h2 className='typeServicesPageTitle'>{title}</h2>
-            <p className='typeServicesPageText'>{text}</p>
+        <div className='CardsServicesContainer'>
+            <h2 className='CardsServicesContainerTitle'>{title}</h2>
+            <p className='CardsServicesContainerText'>{text}</p>
                             
             <CardServices image={mainImage} duration={"Durée : 2h à 5h"} price={"À partir de 30€"} />
             <CardServices image={mainImage} duration={"Durée : 2h à 5h"} price={"À partir de 30€"} />

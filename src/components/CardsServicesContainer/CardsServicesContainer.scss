@@ -1,15 +1,15 @@
 @use '../../styles/index' as *;
 
-.typeServicesPage {
+.CardsServicesContainer {
     margin-bottom: 2rem;
 
-    .typeServicesPageTitle {
+    .CardsServicesContainerTitle {
         font-size: 2rem;
         margin-bottom: 1rem;
         color: $black;
     }
 
-    .typeServicesPageText {
+    .CardsServicesContainerText {
         font-size: 1.2rem;
         line-height: 1.6;
         color: $black;
