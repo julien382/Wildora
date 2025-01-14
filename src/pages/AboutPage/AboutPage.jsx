@@ -8,22 +8,11 @@ const AboutPage = () => {
             <CardAboveTheFold text={"Notre but : vous proposer des expériences immersives au cœur de la nature"} />
 
             <section className='descriptionAboutPage'>
+                <div className='descriptionAboutPageContainerText'>
+                    <h1 className='descriptionAboutPageTitle'>L’Évasion dans sa Forme la Plus Pure</h1>
+                    <p className='descriptionAboutPageText'>{`Chez Wildora, nous nous inspirons de la nature dans son état brut. Le nom Wildora combine deux concepts puissants : 'Wild' (sauvage) et 'Ora' (l'instant, l'époque). Nous croyons que la nature, dans sa forme la plus pure, offre une expérience intemporelle, capable de nous reconnecter à l’essentiel. Nous vous invitons à explorer des paysages préservés, à vivre des moments authentiques, loin du quotidien, et à découvrir un monde où la beauté brute de la nature se dévoile à chaque pas.`}</p>
+                </div>
                 <img className='descriptionAboutPageImage' src={mainImage} alt="mainImage"></img>
-                <h1 className='descriptionAboutPageTitle'>L’Évasion dans sa Forme la Plus Pure</h1>
-                <p className='descriptionAboutPageText'>{`Chez Wildora, nous nous inspirons de la nature dans son état brut. Le nom Wildora combine deux concepts puissants : 'Wild' (sauvage) et 'Ora' (l'instant, l'époque). Nous croyons que la nature, dans sa forme la plus pure, offre une expérience intemporelle, capable de nous reconnecter à l’essentiel. Nous vous invitons à explorer des paysages préservés, à vivre des moments authentiques, loin du quotidien, et à découvrir un monde où la beauté brute de la nature se dévoile à chaque pas.`}</p>
-            </section>
-
-            <section className='equipeAboutPage'>
-                <h1 className='equipeAboutPageTitle'>Notre équipe</h1>
-                    <p className='equipeAboutPageText'>Notre équipe est composée de passionnés qui partagent une vision commune : offrir des aventures enrichissantes, respectueuses de l’environnement et immergées dans la nature sauvage.</p>
-                <div className='equipeAboutPageCard'>
-                    <img className='equipeAboutPageImage' src={mainImage} alt="mainImage"></img>
-                    <p className='equipeAboutPageName'>Julien</p>
-                </div>
-                <div className='equipeAboutPageCard'>
-                    <img className='equipeAboutPageImage' src={mainImage} alt="mainImage"></img>
-                    <p className='equipeAboutPageName'>Dylan</p>
-                </div>
             </section>
 
             <section className='valeursAboutPage'>
@@ -42,6 +31,25 @@ const AboutPage = () => {
                     <img className='valeursAboutPageImage' src={mainImage} alt="mainImage"></img>
                     <h2 className='valeursAboutPageTitle'>Aventure intemporelle </h2>
                     <p className='valeursAboutPageText'>Chaque moment passé dans la nature est un instant précieux et inoubliable.</p>
+                </div>
+            </section>
+
+            <section className='equipeAboutPage'>
+                <h1 className='equipeAboutPageTitle'>Notre équipe</h1>
+                    <p className='equipeAboutPageText'>Notre équipe est composée de passionnés qui partagent une vision commune : offrir des aventures enrichissantes, respectueuses de l’environnement et immergées dans la nature sauvage.</p>
+                <div className='equipeAboutPageCard'>
+                    <img className='equipeAboutPageImage' src={mainImage} alt="mainImage"></img>
+                    <div className='equipeAboutPageContainerText'>
+                        <h2 className='equipeAboutPageTitle'>Voici Julien</h2>
+                        <p className='equipeAboutPageText'>Tout commence par une idée. Peut-être voulez-vous créer une entreprise. Peut-être voulez-vous donner une nouvelle dimension à un passe-temps. Ou peut-être avez-vous un projet créatif que vous souhaitez partager avec le monde. Quel que soit le cas, la façon dont vous racontez votre histoire en ligne peut faire toute la différence.</p>
+                    </div>
+                </div>
+                <div className='equipeAboutPageCard'>
+                    <div className='equipeAboutPageContainerText'>
+                        <h2 className='equipeAboutPageTitle'>Voici Dylan</h2>
+                        <p className='equipeAboutPageText'>Tout commence par une idée. Peut-être voulez-vous créer une entreprise. Peut-être voulez-vous donner une nouvelle dimension à un passe-temps. Ou peut-être avez-vous un projet créatif que vous souhaitez partager avec le monde. Quel que soit le cas, la façon dont vous racontez votre histoire en ligne peut faire toute la différence.</p>
+                    </div>
+                    <img className='equipeAboutPageImage' src={mainImage} alt="mainImage"></img>
                 </div>
             </section>
 
