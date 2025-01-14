@@ -2,7 +2,7 @@
 
 .footer {
     background-color: $primary-color;
-    color: $white;
+    color: $black;
     padding: 2rem 1rem;
     text-align: center;
 
@@ -19,11 +19,13 @@
             .footerTitle {
                 font-size: 1.5rem;
                 margin-bottom: 1rem;
+                color: $black;
             }
 
             .footerText {
                 font-size: 1rem;
                 margin-bottom: 0.5rem;
+                color: $black;
             }
 
             .footerSocialLinks {
@@ -32,12 +34,12 @@
                 gap: 0.5rem;
 
                 a {
-                    color: $white;
+                    color: $black;
                     text-decoration: none;
                     transition: color 0.3s ease;
 
                     &:hover {
-                        color: $secondary-color;
+                        color: darken($black, 20%);
                     }
                 }
             }
@@ -45,11 +47,12 @@
     }
 
     .footerBottom {
-        border-top: 1px solid $white;
+        border-top: 1px solid $black;
         padding-top: 1rem;
 
         .footerBottomText {
             font-size: 0.9rem;
+            color: $black;
         }
     }
 }
