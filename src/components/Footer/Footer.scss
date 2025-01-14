@@ -1,7 +1,6 @@
 @use '../../styles/index' as *;
 
 .footer {
-    background-color: $primary-color;
     color: $black;
     padding: 2rem 1rem;
     text-align: center;
@@ -47,7 +46,7 @@
     }
 
     .footerBottom {
-        border-top: 1px solid $black;
+        border-top: 1px solid $secondary-color;
         padding-top: 1rem;
 
         .footerBottomText {

@@ -2,7 +2,6 @@
 
 .presentationMainPage {
     padding: 2rem;
-    background-color: $white;
 
     .presentationMainPageTitle {
         font-size: 1.2rem;
@@ -13,7 +12,6 @@
 
 .servicesMainPage {
     padding: 2rem;
-    background-color: $white;
 
     .servicesMainPageTitle {
         font-size: 2rem;
@@ -27,7 +25,7 @@
         gap: 2rem;
 
         .servicesMainPageCard {
-            background-color: $white;
+            background-color: $primary-color;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             overflow: hidden;
@@ -47,17 +45,17 @@
             .servicesMainPageCardTitle {
                 font-size: 1.5rem;
                 margin: 1rem 0;
-                color: $black;
+                color: $white;
             }
 
             .servicesMainPageCardText {
                 font-size: 1rem;
                 margin-bottom: 1rem;
-                color: $black;
+                color: $white;
             }
 
             .servicesMainPageCardButton {
-                background-color: $black;
+                background-color: $highlight-color;
                 color: $white;
                 border: none;
                 padding: 0.5rem 1rem;
@@ -77,6 +75,8 @@
     position: relative;
     height: 500px;
     overflow: hidden;
+    border-top: 5px solid $secondary-color;
+    border-bottom: 5px solid $secondary-color;
 
     .galerieMainPageImage {
         width: 100%;
