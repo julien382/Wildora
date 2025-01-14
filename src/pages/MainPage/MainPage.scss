@@ -27,7 +27,7 @@
         .servicesMainPageCard {
             background-color: $primary-color;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.745);
             overflow: hidden;
             flex: 1 1 calc(33.333% - 2rem);
             display: flex;
@@ -35,6 +35,7 @@
             align-items: center;
             text-align: center;
             padding: 1rem;
+            
 
             .servicesImage {
                 width: 100%;
