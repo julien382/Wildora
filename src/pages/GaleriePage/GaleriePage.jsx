@@ -18,6 +18,9 @@ const GaleriePage = () => {
                 <CardGalerie image={mainImage} />
                 <CardGalerie image={mainImage} />
                 <CardGalerie image={mainImage} />
+                <CardGalerie image={mainImage} />
+                <CardGalerie image={mainImage} />
+                <CardGalerie image={mainImage} />
 
             </section>
 
