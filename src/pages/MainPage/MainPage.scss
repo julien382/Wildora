@@ -1,14 +1,24 @@
 @use '../../styles/index' as *;
 
 .presentationMainPage {
-    padding: 2rem;
-
+    padding: 6rem;
+    background-color: $secondary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     .presentationMainPageTitle {
-        font-size: 1.2rem;
+        width: 80%;
+        font-size: $primary-font-size;
         line-height: 1.6;
-        color: $black;
+        color: $white;
         font-family: $secondary-font;
+        text-align: center;
     }
+}
+
+.highlight{
+    font-style: italic;
 }
 
 .servicesMainPage {
@@ -79,8 +89,6 @@
     position: relative;
     height: 500px;
     overflow: hidden;
-    border-top: 5px solid $secondary-color;
-    border-bottom: 5px solid $secondary-color;
 
     .galerieMainPageImage {
         width: 100%;
