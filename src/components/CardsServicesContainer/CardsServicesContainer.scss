@@ -12,6 +12,7 @@
         text-transform: uppercase; /* Mettre le texte en majuscules */
         letter-spacing: 0.1rem; /* Ajouter un espacement entre les lettres */
         font-family: $secondary-font;
+        color: $primary-color;
     }
 
     .CardsServicesContainerText {

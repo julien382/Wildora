@@ -2,7 +2,6 @@
 
 .descriptionAboutPage {
     padding: 4rem 2rem; /* Augmenter la marge en haut */
-    background-color: $white;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,7 +18,7 @@
         .descriptionAboutPageTitle {
             font-size: 2.5rem;
             margin-bottom: 1rem;
-            color: $black;
+            color: $primary-color;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.1rem;
@@ -43,13 +42,12 @@
 
 .equipeAboutPage {
     padding: 2rem;
-    background-color: $white;
     text-align: center;
 
     .equipeAboutPageTitle {
         font-size: 2.5rem;
         margin-bottom: 1rem;
-        color: $black;
+        color: $primary-color;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.1rem;
@@ -95,13 +93,12 @@
 
 .valeursAboutPage {
     padding: 2rem;
-    background-color: $primary-color; /* Ajouter un fond */
     text-align: center;
 
     .valeursAboutPageTitle {
         font-size: 2.5rem;
         margin-bottom: 1rem;
-        color: $black;
+        color: $primary-color;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.1rem;
@@ -125,7 +122,6 @@
         .valeursAboutPageTitle {
             font-size: 1.5rem;
             margin-bottom: 0.5rem;
-            color: $black;
         }
 
         .valeursAboutPageText {
@@ -137,13 +133,13 @@
 
 .temoignagesAboutPage {
     padding: 2rem;
-    background-color: $primary-color; /* Ajouter un fond */
+    background-color: $secondary-color; /* Ajouter un fond */
     text-align: center;
 
     .temoignagesAboutPageTitle {
         font-size: 2.5rem;
         margin-bottom: 1rem;
-        color: $black;
+        color: $white;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.1rem;
@@ -154,10 +150,7 @@
         display: flex;
         align-items: center;
         margin: 1rem 0;
-        background-color: $white; /* Ajouter un fond */
         padding: 1rem;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
         .temoignagesAboutPageImage {
             width: 100px;
@@ -171,13 +164,11 @@
 
             .temoignagesAboutPageText {
                 font-size: 1.2rem;
-                color: $black;
                 margin-bottom: 0.5rem;
             }
 
             .temoignagesAboutPageAuthor {
                 font-size: 1rem;
-                color: $black;
             }
         }
     }
@@ -185,13 +176,13 @@
 
 .faqAboutPage {
     padding: 2rem;
-    background-color: $white;
+    background-color: $primary-color;
     text-align: center;
 
     .faqAboutPageTitle {
         font-size: 2.5rem;
         margin-bottom: 1rem;
-        color: $black;
+        color: $white;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.1rem;
@@ -205,21 +196,18 @@
 
         .faqAboutPageCard {
             background-color: $primary-color; /* Ajouter un fond */
-            border-radius: 8px;
             padding: 1rem;
             text-align: left;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
             .faqAboutPageCardTitle {
                 font-size: 1.5rem;
                 margin-bottom: 0.5rem;
-                color: $black;
                 font-family: $secondary-font;
             }
-
+            
             .faqAboutPageCardText {
+                font-style: italic;
                 font-size: 1.2rem;
-                color: $black;
             }
         }
     }

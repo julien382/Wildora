@@ -33,7 +33,7 @@ header {
             font-weight: 600; /* Police légèrement plus épaisse */
 
             &:hover {
-                color: $primary-color;
+                color: $highlight-color;
             }
         }
     }
@@ -56,6 +56,6 @@ header {
     }
 
     .linkHeader {
-        color: $black; /* Assurez-vous que les liens de navigation sont noirs */
+        color: $primary-color; /* Assurez-vous que les liens de navigation sont noirs */
     }
 }

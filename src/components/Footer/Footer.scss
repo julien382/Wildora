@@ -1,9 +1,10 @@
 @use '../../styles/index' as *;
 
 .footer {
-    color: $black;
+    color: $white;
     padding: 1rem 1rem;
     text-align: center;
+    background-color: $primary-color;
 
     .footerContent {
         display: flex;
@@ -18,14 +19,12 @@
             .footerTitle {
                 font-size: 1.5rem;
                 margin-bottom: 1rem;
-                color: $black;
                 font-family: $secondary-font;
             }
 
             .footerText {
                 font-size: 1rem;
                 margin-bottom: 0.5rem;
-                color: $black;
             }
 
             .footerSocialLinks {
@@ -34,12 +33,12 @@
                 gap: 0.5rem;
 
                 a {
-                    color: $black;
+                    color: $white;
                     text-decoration: none;
                     transition: color 0.3s ease;
 
                     &:hover {
-                        color: darken($black, 20%);
+                        color: $highlight-color;
                     }
                 }
             }
@@ -47,12 +46,11 @@
     }
 
     .footerBottom {
-        border-top: 1px solid $secondary-color;
+        border-top: 1px solid $highlight-color;
         padding-top: 1rem;
 
         .footerBottomText {
             font-size: 0.9rem;
-            color: $black;
             font-family: $secondary-font;
         }
     }
