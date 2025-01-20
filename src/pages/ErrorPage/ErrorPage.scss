@@ -14,19 +14,19 @@
 
 .errorTitle {
     font-size: $error-font-size;
-    font-family: $font-family;
+    font-family: $secondary-font;
     margin: 0;
 }
 
 .errorMessage {
     font-size: $error-font-size;
-    font-family: $font-family;
+    font-family: $secondary-font;
     margin: 1rem 0;
 }
 
 .homeLink {
     font-size: $primary-font-size;
-    font-family: $font-family;
+    font-family: $secondary-font;
     color: $primary-color;
     text-decoration: none;
     border: 2px solid $primary-color;

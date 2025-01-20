@@ -11,6 +11,7 @@
         font-weight: 700; /* Rendre le texte plus épais */
         text-transform: uppercase; /* Mettre le texte en majuscules */
         letter-spacing: 0.1rem; /* Ajouter un espacement entre les lettres */
+        font-family: $secondary-font;
     }
 
     .CardsServicesContainerText {

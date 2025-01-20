@@ -2,7 +2,7 @@
 
 .footer {
     color: $black;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
 
     .footerContent {
@@ -19,6 +19,7 @@
                 font-size: 1.5rem;
                 margin-bottom: 1rem;
                 color: $black;
+                font-family: $secondary-font;
             }
 
             .footerText {
@@ -52,6 +53,7 @@
         .footerBottomText {
             font-size: 0.9rem;
             color: $black;
+            font-family: $secondary-font;
         }
     }
 }

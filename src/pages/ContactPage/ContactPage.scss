@@ -1,30 +1,5 @@
 @use '../../styles/index' as *;
 
-.topContactPage {
-    position: relative;
-    height: 100vh; /* L'image prend toute la hauteur de la vue */
-    background: url('../../assets/img/contact.jpg') no-repeat center center/cover; /* Ajouter une image de fond */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: $white;
-    text-align: center;
-
-    .topContactPageOverlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.5); /* Ajouter une superposition sombre */
-    }
-
-    .topContactPageContent {
-        position: relative;
-        z-index: 1;
-    }
-}
-
 .contactFormSection {
     padding: 4rem 2rem;
     background-color: $white;
@@ -34,6 +9,7 @@
         font-size: 2.5rem;
         margin-bottom: 2rem;
         color: $black;
+        font-family: $secondary-font;
     }
 
     .contactForm {
@@ -83,6 +59,7 @@
         font-size: 2.5rem;
         margin-bottom: 2rem;
         color: $black;
+        font-family: $secondary-font;
     }
 
     .practicalInfoText {
@@ -101,6 +78,7 @@
         font-size: 2.5rem;
         margin-bottom: 2rem;
         color: $black;
+        font-family: $secondary-font;
     }
 
     .mapContainer {

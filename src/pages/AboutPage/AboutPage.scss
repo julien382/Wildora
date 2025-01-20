@@ -23,6 +23,7 @@
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.1rem;
+            font-family: $secondary-font;
         }
 
         .descriptionAboutPageText {
@@ -52,6 +53,7 @@
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.1rem;
+        font-family: $secondary-font;
     }
 
     .equipeAboutPageText {
@@ -103,6 +105,7 @@
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.1rem;
+        font-family: $secondary-font;
     }
 
     .valeursAboutPageCard {
@@ -144,6 +147,7 @@
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.1rem;
+        font-family: $secondary-font;
     }
 
     .temoignagesAboutPageCard {
@@ -191,6 +195,7 @@
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.1rem;
+        font-family: $secondary-font;
     }
 
     .faqAboutPageTitleContainer {
@@ -209,6 +214,7 @@
                 font-size: 1.5rem;
                 margin-bottom: 0.5rem;
                 color: $black;
+                font-family: $secondary-font;
             }
 
             .faqAboutPageCardText {

@@ -7,6 +7,7 @@
         font-size: 1.2rem;
         line-height: 1.6;
         color: $black;
+        font-family: $secondary-font;
     }
 }
 
@@ -17,6 +18,7 @@
         font-size: 2rem;
         margin-bottom: 1rem;
         color: $black;
+        font-family: $secondary-font;
     }
 
     .servicesMainPageContainer {
@@ -47,6 +49,7 @@
                 font-size: 1.5rem;
                 margin: 1rem 0;
                 color: $white;
+                font-family: $secondary-font;
             }
 
             .servicesMainPageCardText {
@@ -95,5 +98,6 @@
         font-size: 2.5rem;
         text-align: center;
         z-index: 1; /* Place le texte au-dessus de l'image */
+        font-family: $secondary-font;
     }
 }
