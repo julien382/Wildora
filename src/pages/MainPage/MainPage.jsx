@@ -3,6 +3,23 @@ import mainImage from '../../assets/img/rando.jpg';
 import CardAboveTheFold from '../../components/CardAboveTheFold/CardAboveTheFold';
 
 const MainPage = () => {
+    const cardData = [
+        {
+          title: "Balades en forêt",
+          description: "Partez à la découverte de la nature sauvage en compagnie de nos guides passionnés. Nos balades guidées sont l’occasion de découvrir des paysages préservés et de vivre des moments uniques en pleine nature.",
+          image: mainImage
+        },
+        {
+          title: "Séjours en Pleine Nature",
+          description: "Vivez une expérience inoubliable en pleine nature, en séjournant dans des hébergements insolites et en participant à des activités en extérieur. Nos séjours en pleine nature sont conçus pour vous permettre de vous ressourcer et de vous reconnecter à l’essentiel.",
+          image: mainImage
+        },
+        {
+          title: "Activités en plein air",
+          description: "Vivez des sensations fortes en participant à nos activités en plein air. Que ce soit de l’escalade, du canoë-kayak, de la randonnée ou du VTT, nos activités en extérieur sont conçues pour les amateurs.",
+          image: mainImage
+        }
+      ];
 
     return (
         <div>
@@ -14,31 +31,16 @@ const MainPage = () => {
 
             <section className='servicesMainPage'>
                 <h1 className='servicesMainPageTitle'>Des aventures sur mesure pour les amoureux de la nature sauvage.</h1>
-                <div className='servicesMainPageContainer'>
-                    <div className='servicesMainPageCard'>
-                        <img className='servicesImage' src={mainImage} alt="servicesImage"></img>
-                        <div className='servicesMainPageCardContainerText'>
-                            <h2 className='servicesMainPageCardTitle'>Balades en forêt</h2>
-                            <p className='servicesMainPageCardText'>Partez à la découverte de la nature sauvage en compagnie de nos guides passionnés. Nos balades guidées sont l’occasion de découvrir des paysages préservés et de vivre des moments uniques en pleine nature.</p>
-                            <button className='servicesMainPageCardButton'>En savoir plus</button>
+                <div className="cards-container">
+                    {cardData.map((card, index) => (
+                        <div className="card" key={index}>
+                            <img src={card.image} alt={card.title} className="card-image" />
+                            <h3 className="card-title">{card.title}</h3>
+                            <div className="card-underline"></div>
+                            <p className="card-description">{card.description}</p>
+                            <button className='card-button'>En savoir plus</button>
                         </div>
-                    </div>
-                    <div className='servicesMainPageCard'>
-                        <img className='servicesImage' src={mainImage} alt="servicesImage"></img>
-                        <div className='servicesMainPageCardContainerText'>
-                            <h2 className='servicesMainPageCardTitle'>Séjours en Pleine Nature</h2>
-                            <p className='servicesMainPageCardText'>Vivez une expérience inoubliable en pleine nature, en séjournant dans des hébergements insolites et en participant à des activités en extérieur. Nos séjours en pleine nature sont conçus pour vous permettre de vous ressourcer et de vous reconnecter à l’essentiel.</p>
-                            <button className='servicesMainPageCardButton'>En savoir plus</button>
-                        </div>
-                   </div>
-                   <div className='servicesMainPageCard'>
-                        <img className='servicesImage' src={mainImage} alt="servicesImage"></img>
-                        <div className='servicesMainPageCardContainerText'>
-                            <h2 className='servicesMainPageCardTitle'>Activités en plein air</h2>
-                            <p className='servicesMainPageCardText'>Vivez des sensations fortes en participant à nos activités en plein air. Que ce soit de l’escalade, du canoë-kayak, de la randonnée ou du VTT, nos activités en extérieur sont conçues pour les amateurs</p>
-                            <button className='servicesMainPageCardButton'>En savoir plus</button>
-                        </div>
-                   </div>
+                    ))}
                 </div>
             </section>
 
