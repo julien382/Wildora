@@ -18,25 +18,25 @@ const AboutPage = () => {
             <section className='valeursAboutPage'>
                 <h1 className='valeursAboutPageTitle'>Nos valeurs</h1>
                 <div className='valeursAboutPageCard'>
-                    <img className='valeursAboutPageImage' src={mainImage} alt="mainImage"></img>
-                    <h2 className='valeursAboutPageTitle'>Authenticité </h2>
-                    <p className='valeursAboutPageText'>Nous vous offrons des expériences vraies, sans artifice, au plus près de la nature.</p>
+                    <img className='valeursAboutPageCardImage' src={mainImage} alt="mainImage"></img>
+                    <h2 className='valeursAboutPageCardTitle'>Authenticité </h2>
+                    <p className='valeursAboutPageCardText'>Nous vous offrons des expériences vraies, sans artifice, au plus près de la nature.</p>
                 </div>
                 <div className='valeursAboutPageCard'>
-                    <img className='valeursAboutPageImage' src={mainImage} alt="mainImage"></img>
-                    <h2 className='valeursAboutPageTitle'>Respect de la nature </h2>
-                    <p className='valeursAboutPageText'>Nous sommes engagés dans une démarche de tourisme durable et responsable.</p>
+                    <img className='valeursAboutPageCardImage' src={mainImage} alt="mainImage"></img>
+                    <h2 className='valeursAboutPageCardTitle'>Respect de la nature </h2>
+                    <p className='valeursAboutPageCardText'>Nous sommes engagés dans une démarche de tourisme durable et responsable.</p>
                 </div>
                 <div className='valeursAboutPageCard'>
-                    <img className='valeursAboutPageImage' src={mainImage} alt="mainImage"></img>
-                    <h2 className='valeursAboutPageTitle'>Aventure intemporelle </h2>
-                    <p className='valeursAboutPageText'>Chaque moment passé dans la nature est un instant précieux et inoubliable.</p>
+                    <img className='valeursAboutPageCardImage' src={mainImage} alt="mainImage"></img>
+                    <h2 className='valeursAboutPageCardTitle'>Aventure intemporelle </h2>
+                    <p className='valeursAboutPageCardText'>Chaque moment passé dans la nature est un instant précieux et inoubliable.</p>
                 </div>
             </section>
 
             <section className='equipeAboutPage'>
                 <h1 className='equipeAboutPageTitle'>Notre équipe</h1>
-                    <p className='equipeAboutPageText'>Notre équipe est composée de passionnés qui partagent une vision commune : offrir des aventures enrichissantes, respectueuses de l’environnement et immergées dans la nature sauvage.</p>
+                    <p className='equipeAboutPageTitleText'>Notre équipe est composée de passionnés qui partagent une vision commune : offrir des aventures enrichissantes, respectueuses de l’environnement et immergées dans la nature sauvage.</p>
                 <div className='equipeAboutPageCard'>
                     <img className='equipeAboutPageImage' src={mainImage} alt="mainImage"></img>
                     <div className='equipeAboutPageContainerText'>

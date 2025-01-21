@@ -46,7 +46,7 @@
 
     .equipeAboutPageTitle {
         font-size: 2.5rem;
-        margin-bottom: 1rem;
+        margin-bottom: rem;
         color: $primary-color;
         font-weight: 700;
         text-transform: uppercase;
@@ -54,13 +54,14 @@
         font-family: $secondary-font;
     }
 
-    .equipeAboutPageText {
+    .equipeAboutPageTitleText {
         font-size: 1.4rem;
-        line-height: 1.8;
+        line-height: 1.5;
         color: $black;
-        margin-bottom: 2rem;
         max-width: 800px;
         margin: 0 auto;
+        padding: 2rem;
+        margin-bottom: 4rem;
     }
 
     .equipeAboutPageCard {
@@ -68,12 +69,13 @@
         align-items: center;
         margin: 1rem auto; /* Centrer les cartes sur la page */
         text-align: left;
-        width: calc(33.333% - 2rem); /* Trois cartes par ligne */
+        justify-content: center;        
         box-sizing: border-box;
+        margin-bottom: 5rem;
 
         .equipeAboutPageImage {
-            width: 150px;
-            height: 200px; /* Ajuster la hauteur de l'image */
+            width: 400px;
+            height: 550px; /* Ajuster la hauteur de l'image */
             object-fit: cover;
             margin-right: 1rem;
         }
@@ -82,11 +84,19 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            max-width: 30%;
+            color: $black;
+            padding: 2rem;
+
+            .equipeAboutPageTitle{
+                margin-bottom: 2rem;
+            }
         }
 
-        .equipeAboutPageName {
-            font-size: 1.2rem;
+        .equipeAboutPageText {
+            font-size: $tertiary-font-size;
             color: $black;
+            line-height: 1.2;
         }
     }
 }
@@ -94,14 +104,16 @@
 .valeursAboutPage {
     padding: 2rem;
     text-align: center;
+    margin-bottom: 3rem;
 
     .valeursAboutPageTitle {
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
+        font-size: $primary-font-size;
+        margin-bottom: 2rem;
         color: $primary-color;
         font-weight: 700;
         letter-spacing: 0.1rem;
         font-family: $secondary-font;
+        text-transform: uppercase;
     }
 
     .valeursAboutPageCard {
@@ -111,20 +123,23 @@
         width: calc(33.333% - 2rem); /* Trois cartes par ligne */
         box-sizing: border-box;
 
-        .valeursAboutPageImage {
+        .valeursAboutPageCardImage {
             width: 120px; /* Agrandir légèrement l'image */
             height: 120px;
             object-fit: cover;
             margin-bottom: 0.5rem;
         }
 
-        .valeursAboutPageTitle {
+        .valeursAboutPageCardTitle {
             font-size: 1.5rem;
             margin-bottom: 0.5rem;
             font-style: italic;
+            color: $primary-color;
+            border-bottom: 1px solid $highlight-color;
+            padding: 0.5rem;
         }
 
-        .valeursAboutPageText {
+        .valeursAboutPageCardText {
             font-size: 1.2rem;
             color: $black;
         }
