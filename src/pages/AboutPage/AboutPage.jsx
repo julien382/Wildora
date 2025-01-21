@@ -20,16 +20,19 @@ const AboutPage = () => {
                 <div className='valeursAboutPageCard'>
                     <img className='valeursAboutPageCardImage' src={mainImage} alt="mainImage"></img>
                     <h2 className='valeursAboutPageCardTitle'>Authenticité </h2>
+                    <div className='valeursBarre'></div>
                     <p className='valeursAboutPageCardText'>Nous vous offrons des expériences vraies, sans artifice, au plus près de la nature.</p>
                 </div>
                 <div className='valeursAboutPageCard'>
                     <img className='valeursAboutPageCardImage' src={mainImage} alt="mainImage"></img>
                     <h2 className='valeursAboutPageCardTitle'>Respect de la nature </h2>
+                    <div className='valeursBarre'></div>
                     <p className='valeursAboutPageCardText'>Nous sommes engagés dans une démarche de tourisme durable et responsable.</p>
                 </div>
                 <div className='valeursAboutPageCard'>
                     <img className='valeursAboutPageCardImage' src={mainImage} alt="mainImage"></img>
                     <h2 className='valeursAboutPageCardTitle'>Aventure intemporelle </h2>
+                    <div className='valeursBarre'></div>
                     <p className='valeursAboutPageCardText'>Chaque moment passé dans la nature est un instant précieux et inoubliable.</p>
                 </div>
             </section>

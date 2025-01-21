@@ -135,8 +135,14 @@
             margin-bottom: 0.5rem;
             font-style: italic;
             color: $primary-color;
-            border-bottom: 1px solid $highlight-color;
-            padding: 0.5rem;
+            padding-top: 0.5rem;
+        }
+
+        .valeursBarre{
+            width: 120px;
+            height: 1px;
+            background-color: $highlight-color;
+            margin: 1rem auto;
         }
 
         .valeursAboutPageCardText {
