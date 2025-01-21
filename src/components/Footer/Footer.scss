@@ -5,11 +5,13 @@
     padding: 1rem 1rem;
     text-align: center;
     background-color: $primary-color;
+    box-shadow: 0 -4px 5px rgba(0, 0, 0, 0.05);
 
     .footerContent {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        margin-top: 1rem;
         margin-bottom: 2rem;
 
         .footerSection {
