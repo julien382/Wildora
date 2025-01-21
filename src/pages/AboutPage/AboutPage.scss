@@ -147,13 +147,13 @@
 }
 
 .temoignagesAboutPage {
-    padding: 2rem;
+    padding: 4rem;
     background-color: $secondary-color; /* Ajouter un fond */
     text-align: center;
 
     .temoignagesAboutPageTitle {
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
+        font-size: $primary-font-size;
+        margin-bottom: 4rem;
         color: $white;
         font-weight: 700;
         text-transform: uppercase;
@@ -161,30 +161,23 @@
         font-family: $secondary-font;
     }
 
-    .temoignagesAboutPageCard {
+    .temoignagesAboutPageCards{
         display: flex;
-        align-items: center;
-        margin: 1rem 0;
-        padding: 1rem;
+    }
 
-        .temoignagesAboutPageImage {
-            width: 100px;
-            height: 100px;
-            object-fit: cover;
-            margin-right: 1rem;
+    .temoignagesAboutPageCard {
+        padding: 2rem;
+
+        .temoignagesAboutPageCardText {
+            font-size: 1.3rem;
+            font-weight: bold;
+            border-bottom: 1px solid $highlight-color;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
         }
 
-        .temoignagesAboutPageContainerText {
-            text-align: left;
-
-            .temoignagesAboutPageText {
-                font-size: 1.2rem;
-                margin-bottom: 0.5rem;
-            }
-
-            .temoignagesAboutPageAuthor {
-                font-size: 1rem;
-            }
+        .temoignagesAboutPageCardAuthor {
+            font-size: $quaternary-font-size;
         }
     }
 }
@@ -195,7 +188,7 @@
     text-align: center;
 
     .faqAboutPageTitle {
-        font-size: 2.5rem;
+        font-size: $primary-font-size;
         margin-bottom: 1rem;
         color: $white;
         font-weight: 700;

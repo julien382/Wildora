@@ -55,11 +55,22 @@ const AboutPage = () => {
 
             <section className='temoignagesAboutPage'>
                 <h1 className='temoignagesAboutPageTitle'>Ce qu’ils disent de nous</h1>
-                <div className='temoignagesAboutPageCard'>
-                    <img className='temoignagesAboutPageImage' src={mainImage} alt="mainImage"></img>
-                    <div className='temoignagesAboutPageContainerText'>
-                        <p className='temoignagesAboutPageText'>Une aventure incroyable avec Wildora ! Le cadre sauvage et préservé m’a permis de me reconnecter à la nature. Un moment inoubliable !</p>
-                        <p className='temoignagesAboutPageAuthor'>Julien Hermain, client</p>
+                <div className='temoignagesAboutPageCards'>
+                    <div className='temoignagesAboutPageCard'>
+                        <p className='temoignagesAboutPageCardText'>Une aventure incroyable avec Wildora ! Le cadre sauvage et préservé m’a permis de me reconnecter à la nature. Un moment inoubliable !</p>
+                        <p className='temoignagesAboutPageCardAuthor'>Julien Hermain, client</p>
+                    </div>
+                    <div className='temoignagesAboutPageCard'>
+                        <p className='temoignagesAboutPageCardText'>Une aventure incroyable avec Wildora ! Le cadre sauvage et préservé m’a permis de me reconnecter à la nature. Un moment inoubliable !</p>
+                        <p className='temoignagesAboutPageCardAuthor'>Julien Hermain, client</p>
+                    </div>
+                    <div className='temoignagesAboutPageCard'>
+                        <p className='temoignagesAboutPageCardText'>Une aventure incroyable avec Wildora ! Le cadre sauvage et préservé m’a permis de me reconnecter à la nature. Un moment inoubliable !</p>
+                        <p className='temoignagesAboutPageCardAuthor'>Julien Hermain, client</p>
+                    </div>
+                    <div className='temoignagesAboutPageCard'>
+                        <p className='temoignagesAboutPageCardText'>Une aventure incroyable avec Wildora ! Le cadre sauvage et préservé m’a permis de me reconnecter à la nature. Un moment inoubliable !</p>
+                        <p className='temoignagesAboutPageCardAuthor'>Julien Hermain, client</p>
                     </div>
                 </div>
             </section>
