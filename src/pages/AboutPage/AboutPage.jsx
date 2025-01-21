@@ -82,10 +82,12 @@ const AboutPage = () => {
                         <h2 className='faqAboutPageCardTitle'>Comment choisir une activité ?</h2>
                         <p className='faqAboutPageCardText'>Vous pouvez consulter notre catalogue d’activités en ligne</p>
                     </div>
+                    <div className='faqBarre'></div>
                     <div className='faqAboutPageCard'>
                         <h2 className='faqAboutPageCardTitle'>Quel équipement dois-je apporter pour une balade ?</h2>
                         <p className='faqAboutPageCardText'>{`Nous fournissons les équipements essentiels, mais il est recommandé de porter des chaussures de randonnée et d'apporter de l'eau.`}</p>
                     </div>
+                    <div className='faqBarre'></div>
                     <div className='faqAboutPageCard'>
                         <h2 className='faqAboutPageCardTitle'>Quels niveaux de difficulté pour les balades ?</h2>
                         <p className='faqAboutPageCardText'>Nos balades sont adaptées à tous les niveaux, des promenades faciles aux randonnées plus difficiles.</p>
