@@ -4,6 +4,8 @@
     margin-bottom: 2rem;
     text-align: center;
     color: $black;
+    padding: 4rem;
+    box-shadow: 0 -4px 5px rgba(0, 0, 0, 0.05);
 
     .CardsServicesContainerTitle {
         font-size: 2.5rem; /* Augmenter la taille de la police */
@@ -17,7 +19,7 @@
 
     .CardsServicesContainerText {
         font-size: 1.4rem; /* Augmenter la taille de la police */
-        line-height: 1.8; /* Augmenter l'interligne */
+        line-height: 1.5; /* Augmenter l'interligne */
         margin-bottom: 2rem;
         max-width: 800px; /* Limiter la largeur du texte */
         margin-left: auto;
