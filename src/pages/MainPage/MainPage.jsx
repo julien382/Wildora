@@ -1,6 +1,7 @@
 import './MainPage.scss'
 import mainImage from '../../assets/img/rando.jpg';
 import CardAboveTheFold from '../../components/CardAboveTheFold/CardAboveTheFold';
+import { Link } from "react-router-dom";
 
 const MainPage = () => {
     const cardData = [
@@ -45,8 +46,10 @@ const MainPage = () => {
             </section>
 
             <section className='galerieMainPage'>
-                <img className='galerieMainPageImage' src={mainImage} alt="mainImage"></img>
-                <h1 className='galerieMainPageTitle'>Découvrez la beauté de la nature à travers notre galerie de photos.</h1>
+                <Link to="/Galerie">
+                    <img className='galerieMainPageImage' src={mainImage} alt="mainImage"></img>
+                    <h1 className='galerieMainPageTitle'>Découvrez la beauté de la nature à travers notre galerie de photos.</h1>
+                </Link>
             </section>
 
         </div>
